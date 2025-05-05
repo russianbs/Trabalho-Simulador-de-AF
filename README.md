@@ -117,6 +117,7 @@ A função main começa verificando se o número correto de argumentos foi passa
 O programa é chamado por linha de comando com os argumentos dos arquivos que serão recebidos na Main, após isso o programa lê o arquivo Json com as especificações do autômato e a armazena na classe "Automato", após isso o tipo é determinado pela função "determinarAutomato" que verifica se existem mais de uma transição com o mesmo símbolo saindo de um estado para outros, com o tipo definido a função Main abre o arqivuo de saída .out/CSV e entra em um loop for, aqui ela toma o tempo do sistema no começo da execução da função de simulação correspondente, "simularAFND" ou "simularAFD", após a simulação ser concluída ela toma o tempo do sistema novamente e acha o tempo de processamento de cada palavra subtraindo o tempo inicial do final, ainda dentro do loop for ela printa os resultados do processamento de cada palavra conforme o padrão pedido dentro do arquivo .out.
 
 ## Como utilizar
-
+Para utilizar a ferramenta, abra o Shell e mude o diretório atual para o diretório onde o arquivo ferramenta.py está, após isso o programa e seus argumentos devem ser chamados por linha de comando da seguinte maneira:
+```python simulador.py automato.aut entrada.in saida.out ```
 
 
