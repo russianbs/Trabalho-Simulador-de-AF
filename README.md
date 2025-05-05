@@ -118,6 +118,8 @@ O programa é chamado por linha de comando com os argumentos dos arquivos que se
 
 ## Como utilizar
 Para utilizar a ferramenta, abra o Shell e mude o diretório atual para o diretório onde o arquivo ferramenta.py está, após isso o programa e seus argumentos devem ser chamados por linha de comando da seguinte maneira:
-```python simulador.py automato.aut entrada.in saida.out ```
+```python ferramenta.py automato.aut entrada.in saida.out ```
+Após isso o programa irá gerar o arquivo de saída .out na pasta onde o .py está. Desta forma:
 
+![Exemplo](https://github.com/user-attachments/assets/2d80a628-0f91-4261-bcd3-6ecf7c18a0a7)
 
